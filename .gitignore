@@ -44,6 +44,7 @@ pnpm-debug.log*
 *.sqlite
 *.sqlite3
 *.db
+uploads/
 backend/uploads/
 backend/plantcare.db
 backend/alembic.log

@@ -10,18 +10,15 @@ SQLAlchemy>=2.0.28
 alembic>=1.13.1
 
 # Security & Authentication
-passlib[bcrypt]>=1.7.4
-bcrypt>=4.0.1,<4.1.0
+bcrypt>=4.0.1
 python-jose[cryptography]>=3.3.0
 
 # Image Processing & PDF Generation
 Pillow>=10.2.0
 reportlab>=4.1.0
 
-# Machine Learning & Scientific Computing
+# Scientific Computing & Heuristics
 numpy>=1.26.0
-scikit-learn>=1.4.0
-tensorflow>=2.16.0
 
 # HTTP Client & Utilities
 httpx>=0.27.0

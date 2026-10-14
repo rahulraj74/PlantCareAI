@@ -4,11 +4,11 @@
  * error handling, and demo-mode fallbacks for offline exploration.
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://plantcareai-08x4.onrender.com';
 
 class ApiService {
   constructor() {
-    this.baseUrl = (API_BASE_URL || 'http://localhost:8000').replace(/\/+$/, '');
+    this.baseUrl = (API_BASE_URL || 'https://plantcareai-08x4.onrender.com').replace(/\/+$/, '');
   }
 
   getHeaders(isFormData = false) {

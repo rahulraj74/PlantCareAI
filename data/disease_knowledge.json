@@ -1,0 +1,348 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-03-15",
+  "supported_crops": ["Tomato"],
+  "diseases": [
+    {
+      "id": "Tomato___Bacterial_spot",
+      "display_name": "Tomato Bacterial Spot",
+      "scientific_name": "Xanthomonas perforans / Xanthomonas vesicatoria",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Small, dark brown to black circular lesions on leaves (often water-soaked initially).",
+        "Yellow halos frequently develop around leaf spots as they expand.",
+        "Severe infection leads to widespread blighting, yellowing, and defoliation.",
+        "Rough, scabby, raised circular lesions on green and ripening fruit."
+      ],
+      "causes": [
+        "Bacterium Xanthomonas species.",
+        "Spread by wind-driven rain, splashing irrigation, contaminated seed, and handling wet plants.",
+        "Favored by warm temperatures (75°F–86°F / 24°C–30°C) and persistent leaf wetness or high humidity."
+      ],
+      "prevention": [
+        "Use certified pathogen-free seeds and disease-free transplants.",
+        "Employ drip irrigation rather than overhead sprinklers to minimize leaf wetness.",
+        "Practice crop rotation of at least 2–3 years with non-solanaceous crops.",
+        "Sanitize stakes, tools, and greenhouse benches between seasons."
+      ],
+      "management": [
+        "Promptly rogue and destroy severely infected individual plants to reduce inoculum.",
+        "Avoid working in or harvesting fields when tomato foliage is wet.",
+        "Consult local agricultural extension agents for approved copper-based bactericides or biological control agents if disease pressure is high.",
+        "Apply organic mulch to reduce soil splash onto lower foliage."
+      ],
+      "sources": [
+        "University of Florida IFAS Extension (EDIS PP-211)",
+        "Penn State Extension Plant Disease Factsheets"
+      ],
+      "last_reviewed": "2026-01-10"
+    },
+    {
+      "id": "Tomato___Early_blight",
+      "display_name": "Tomato Early Blight",
+      "scientific_name": "Alternaria solani",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Distinct concentric circular rings ('target board' appearance) on older, lower foliage.",
+        "Yellow chlorotic tissue surrounding expanding brown lesions.",
+        "Premature defoliation starting from the base of the canopy upwards.",
+        "Dark, sunken, leathery cankers at the stem base or fruit stem end."
+      ],
+      "causes": [
+        "Fungal pathogen Alternaria solani.",
+        "Overwinters in infected crop debris, solanaceous weeds, and volunteer tomatoes.",
+        "Accelerated by warm temperatures (75°F–85°F / 24°C–29°C) accompanied by heavy dew or frequent rains."
+      ],
+      "prevention": [
+        "Maintain wide plant spacing and staking to maximize airflow and sunlight penetration.",
+        "Prune bottom suckers and lower foliage (up to 12 inches off soil) to eliminate splash zones.",
+        "Rotate fields away from tomatoes, potatoes, and eggplants for 3 seasons.",
+        "Apply clean organic or plastic mulch around the plant base."
+      ],
+      "management": [
+        "Strip and dispose of infected lower leaves at first sight; do not compost infected material.",
+        "Water strictly at the soil level using drip systems early in the morning.",
+        "Consult extension services regarding preventative bio-fungicides (e.g., Bacillus subtilis) or copper sprays before heavy humidity periods."
+      ],
+      "sources": [
+        "Cornell University Vegetable MD Online",
+        "University of Wisconsin-Madison Extension (Early Blight on Tomato)"
+      ],
+      "last_reviewed": "2026-01-15"
+    },
+    {
+      "id": "Tomato___Late_blight",
+      "display_name": "Tomato Late Blight",
+      "scientific_name": "Phytophthora infestans",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Large, irregular, pale water-soaked lesions that rapidly turn dark brown to purplish-black.",
+        "White, velvety fungal-like downy growth visible on leaf undersides in high humidity.",
+        "Stems develop dark greasy-brown lesions; complete canopy collapse can occur within days.",
+        "Firm, greasy, golden-brown rot on green and mature fruits."
+      ],
+      "causes": [
+        "Oomycete pathogen Phytophthora infestans.",
+        "High danger disease: highly infectious airborne sporangia travel miles on wind currents.",
+        "Favored by cool, humid, wet weather (60°F–70°F / 15°C–21°C) and persistent fog or rain."
+      ],
+      "prevention": [
+        "Plant resistant cultivars (e.g., Mountain Magic, Defiant, Legend) where late blight is prevalent.",
+        "Destroy all volunteer tomato and potato cull piles before planting.",
+        "Monitor local university and agricultural late-blight forecast tracking networks.",
+        "Avoid overhead irrigation and ensure rapid foliage drying."
+      ],
+      "management": [
+        "Late blight is a community-level threat; immediately report and destroy infected vines in sealed bags.",
+        "In commercial fields, harvest immediately if crop is mature or spray registered protectants in accordance with extension advice.",
+        "Do not leave infected vines in the field or uncovered compost heaps."
+      ],
+      "sources": [
+        "USAblight Consortium",
+        "Cornell University College of Agriculture and Life Sciences (Late Blight Fact Sheet)"
+      ],
+      "last_reviewed": "2026-02-01"
+    },
+    {
+      "id": "Tomato___Leaf_Mold",
+      "display_name": "Tomato Leaf Mold",
+      "scientific_name": "Passalora fulva (syn. Cladosporium fulvum)",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Pale greenish-yellow chlorotic spots with indistinct margins on upper leaf surfaces.",
+        "Olive-green to velvety brown mold growth directly underneath spots on leaf undersurface.",
+        "Infected leaves curl, wither, turn brown, and drop prematurely.",
+        "Primarily affects leaves, but blossoms and fruits may occasionally be infected."
+      ],
+      "causes": [
+        "Fungus Passalora fulva.",
+        "Common in high tunnels, greenhouses, and humid, poorly ventilated outdoor plantings.",
+        "Thrives at high relative humidity (>85%) and warm temperatures (70°F–75°F / 21°C–24°C)."
+      ],
+      "prevention": [
+        "Maximize greenhouse ventilation with exhaust fans, roll-up sides, and circulating horizontal airflow fans.",
+        "Select leaf mold-resistant varieties featuring Cf-resistance genes.",
+        "Increase plant spacing to decrease humidity inside the canopy.",
+        "Water with subsurface drip irrigation to prevent surface evaporation."
+      ],
+      "management": [
+        "Lower greenhouse humidity below 80% through night heating and morning venting.",
+        "Prune lower older leaves to enhance canopy airflow.",
+        "Sanitize greenhouse structure and equipment between cropping cycles with labeled disinfectants."
+      ],
+      "sources": [
+        "University of Massachusetts Amherst Greenhouse Crops and Floriculture Program",
+        "Purdue University Extension (BP-197-W)"
+      ],
+      "last_reviewed": "2026-01-20"
+    },
+    {
+      "id": "Tomato___Septoria_leaf_spot",
+      "display_name": "Tomato Septoria Leaf Spot",
+      "scientific_name": "Septoria lycopersici",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Numerous small, circular lesions (1/16 to 1/8 inch) with dark brown borders and pale tan/gray centers.",
+        "Tiny black fruiting bodies (pycnidia) clearly visible in lesion centers with a hand lens.",
+        "Severe leaf yellowing and shedding, beginning with the lowest foliage.",
+        "Fruit infection is rare, but defoliation exposes fruits to sunscald."
+      ],
+      "causes": [
+        "Fungus Septoria lycopersici.",
+        "Overwinters in solanaceous crop residue and perennial weeds (e.g., horse nettle).",
+        "Disseminated by splashing rain, tools, insects, and handling wet plants.",
+        "Favored by wet conditions and moderate temperatures (68°F–77°F / 20°C–25°C)."
+      ],
+      "prevention": [
+        "Mulch heavily under plants immediately after transplanting to stop soil spores splashing.",
+        "Practice a minimum 2-year rotation with non-host crops (corn, beans, brassicas).",
+        "Weed control: eradicate nightshade and related weeds around garden perimeters.",
+        "Stake and trellis tomato plants to maintain upright, aerated growth."
+      ],
+      "management": [
+        "Remove lower leaves showing early symptoms before spores spread upwards.",
+        "Avoid handling or cultivating tomato plants when moisture is on the leaves.",
+        "Apply organic copper or potassium bicarbonate according to agricultural extension guidelines."
+      ],
+      "sources": [
+        "Missouri Botanical Garden Horticultural Guide",
+        "Rutgers New Jersey Agricultural Experiment Station (FS547)"
+      ],
+      "last_reviewed": "2026-02-10"
+    },
+    {
+      "id": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "display_name": "Two-Spotted Spider Mite Damage",
+      "scientific_name": "Tetranychus urticae",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Fine yellow or white stippling (pinpoint flecking) on upper leaf surfaces.",
+        "Silken webbing on leaf undersides, growing tips, and between stems.",
+        "Leaves turn bronze, dry out, become brittle, and drop as populations explode.",
+        "Stunted plant growth and sun-exposed, damaged fruit."
+      ],
+      "causes": [
+        "Arachnid pest: Tetranychus urticae (Two-spotted spider mite).",
+        "Accelerates dramatically in hot, dry, dusty conditions (temperatures exceeding 85°F / 29°C).",
+        "Natural predators often wiped out by broad-spectrum synthetic insecticide use."
+      ],
+      "prevention": [
+        "Keep garden paths watered or vegetated to suppress dust that inhibits mite predators.",
+        "Encourage native beneficial insects (ladybugs, lacewings, predatory mites Phytoseiulus persimilis).",
+        "Avoid over-fertilizing with high nitrogen, which encourages rapid pest reproduction.",
+        "Inspect leaf undersides regularly with a 10x hand lens during hot weather."
+      ],
+      "management": [
+        "Wash foliage with a strong stream of water to dislodge mites and destroy webbing.",
+        "Apply insecticidal soaps or horticultural oils (e.g., neem oil) ensuring full coverage of leaf undersides.",
+        "Introduce commercial predatory mites in greenhouse or high tunnel settings.",
+        "Isolate and discard heavily infested foliage."
+      ],
+      "sources": [
+        "University of California Statewide Integrated Pest Management Program (UC IPM)",
+        "Colorado State University Extension Fact Sheet No. 5.507"
+      ],
+      "last_reviewed": "2026-01-25"
+    },
+    {
+      "id": "Tomato___Target_Spot",
+      "display_name": "Tomato Target Spot",
+      "scientific_name": "Corynespora cassiicola",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Pinpoint brown spots that expand into circular brown lesions with light brown centers.",
+        "Zonate concentric rings frequently develop inside lesions (resembling early blight).",
+        "Upper canopy leaves develop extensive chlorosis and drop.",
+        "Circular, deeply pitted, sunken lesions on fruit with dark centers."
+      ],
+      "causes": [
+        "Fungal pathogen Corynespora cassiicola.",
+        "Broad host range infecting many vegetables and weeds.",
+        "Favored by warm temperatures (70°F–85°F / 21°C–29°C) and prolonged humidity or dew."
+      ],
+      "prevention": [
+        "Promote canopy aeration with trellising and sucker pruning.",
+        "Avoid overhead irrigation, especially in late afternoon or evening.",
+        "Disinfect greenhouse stakes, wire supports, and equipment after harvest.",
+        "Rotate fields away from solanaceous and cucurbit crops."
+      ],
+      "management": [
+        "Prune and safely destroy infected lower leaves.",
+        "Maintain balanced potassium and nitrogen nutrition to support plant vigor.",
+        "Consult extension agents for appropriate fungicide spray programs during severe outbreaks."
+      ],
+      "sources": [
+        "University of Florida IFAS Extension (PP-237 Target Spot of Tomato)",
+        "North Carolina State University Extension Plant Pathology"
+      ],
+      "last_reviewed": "2026-02-18"
+    },
+    {
+      "id": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "display_name": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+      "scientific_name": "Begomovirus (family Geminiviridae)",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Marked upward curling and cupping of leaflets ('spooning').",
+        "Severe marginal and interveinal yellowing (chlorosis) of younger leaves.",
+        "Severe plant stunting and erect bushy appearance.",
+        "Flower buds drop prematurely; fruit set is drastically reduced if infected early."
+      ],
+      "causes": [
+        "Tomato yellow leaf curl virus transmitted exclusively by the sweetpotato whitefly (Bemisia tabaci).",
+        "Not transmitted through seeds or mechanical contact.",
+        "Prevalent in tropical, subtropical, and warm temperate tomato production areas."
+      ],
+      "prevention": [
+        "Plant certified TYLCV-resistant or tolerant hybrids (e.g., Tycoon, Camaro, Charger).",
+        "Install fine insect netting (50-mesh) on greenhouse and nursery vents to exclude whiteflies.",
+        "Use yellow sticky traps to monitor and detect whitefly populations early.",
+        "Maintain a whitefly-free host-free period of at least 2 months between tomato crops."
+      ],
+      "management": [
+        "Rogue and bag infected symptomatic plants immediately to prevent whiteflies spreading virus to neighbors.",
+        "Manage whitefly vectors with horticultural oils, insecticidal soaps, or biocontrols (Encarsia formosa).",
+        "Control alternate weed hosts (nightshades, mallows) surrounding the crop."
+      ],
+      "sources": [
+        "UC IPM Pest Management Guidelines: Tomato Yellow Leaf Curl",
+        "University of Hawaii Cooperative Extension Service"
+      ],
+      "last_reviewed": "2026-01-30"
+    },
+    {
+      "id": "Tomato___Tomato_mosaic_virus",
+      "display_name": "Tomato Mosaic Virus (ToMV)",
+      "scientific_name": "Tobamovirus (Tomato mosaic virus)",
+      "crop": "Tomato",
+      "is_healthy": false,
+      "symptoms": [
+        "Mottled light and dark green mosaic patterns on leaves.",
+        "Distorted, curled, or fern-like ('shoestring') leaf shapes.",
+        "Stunted vegetative growth and reduced plant vigor.",
+        "Uneven ripening, internal browning, or yellowish-brown blotches on fruit."
+      ],
+      "causes": [
+        "Tomato mosaic virus (ToMV).",
+        "Extremely stable and persistent; easily transmitted mechanically by touch, pruning shears, and workers.",
+        "Can be seed-borne and survives in contaminated root debris and tobacco products."
+      ],
+      "prevention": [
+        "Plant certified virus-free seeds and disease-resistant tomato varieties (labeled with 'T' or 'ToMV').",
+        "Instruct field workers to wash hands thoroughly with soap or 20% non-fat dry milk solution before handling plants.",
+        "Strictly prohibit smoking or handling tobacco products prior to handling tomato seedlings.",
+        "Sterilize cutting tools and pruning shears between plants using a 10% trisodium phosphate (TSP) or bleach solution."
+      ],
+      "management": [
+        "There is no chemical cure for viral infections; immediately remove and destroy infected plants.",
+        "Do not compost infected plants.",
+        "Clean and disinfect all stakes, pots, and soil trays."
+      ],
+      "sources": [
+        "University of Minnesota Extension (Tomato Mosaic and Tobacco Mosaic Viruses)",
+        "Penn State Extension Plant Pathology Guidelines"
+      ],
+      "last_reviewed": "2026-02-12"
+    },
+    {
+      "id": "Tomato___healthy",
+      "display_name": "Healthy Tomato Foliage",
+      "scientific_name": "Solanum lycopersicum",
+      "crop": "Tomato",
+      "is_healthy": true,
+      "symptoms": [
+        "Foliage is vibrant, uniform green with normal leaf texture.",
+        "No chlorotic spots, wilting, mosaic mottling, necrotic lesions, or webbing detected.",
+        "Stems are sturdy and erect with consistent vegetative growth.",
+        "Flowers and fruits develop normally according to cultivar characteristics."
+      ],
+      "causes": [
+        "Optimal cultural care, balanced soil nutrition, and absence of significant pathogen pressure."
+      ],
+      "prevention": [
+        "Continue consistent watering at soil level (approx. 1–2 inches per week depending on weather).",
+        "Maintain proper soil pH (6.2–6.8) and supply balanced N-P-K with essential micronutrients (calcium, magnesium).",
+        "Keep mulch layer intact to regulate soil temperature and conserve moisture.",
+        "Perform regular scouting every 2–3 days for early identification of pests or disease."
+      ],
+      "management": [
+        "Support growing vines with stakes, cages, or trellis systems.",
+        "Prune indeterminate varieties for adequate aeration and light penetration.",
+        "Harvest ripe fruit promptly to reduce physical stress on the vine."
+      ],
+      "sources": [
+        "University of California Division of Agriculture and Natural Resources (UC ANR)",
+        "Penn State Extension Commercial Tomato Production Guide"
+      ],
+      "last_reviewed": "2026-03-01"
+    }
+  ]
+}
